@@ -1,0 +1,14 @@
+graph TD;
+    Inicio --> Recolectar_ingredientes;
+    Recolectar_ingredientes --> Pelar_cortar_patatas;
+    Pelar_cortar_patatas --> Calentar_aceite;
+    Calentar_aceite --> Cocinar_patatas;
+    Cocinar_patatas --> Batir_huevos;
+    Batir_huevos --> Mezclar_patatas_huevos;
+    Mezclar_patatas_huevos --> Calentar_aceite_sartén;
+    Calentar_aceite_sartén --> Verter_mezcla_sartén;
+    Verter_mezcla_sartén --> Cocinar_tortilla;
+    Cocinar_tortilla --> Dar_vuelta;
+    Dar_vuelta --> Cocinar_otro_lado;
+    Cocinar_otro_lado --> Servir_tortilla;
+    Servir_tortilla --> Fin;
